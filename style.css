@@ -526,4 +526,22 @@ footer img{
     .smart-watches div p{
     font-size: 2vh;
     }
+
+    /* Footer Section */
+
+    footer{
+        margin-top: 50px;
+    }
+
+    footer img{
+        width: 15px;
+        height: 15px;
+        padding: 8px;
+    }
+
+    .all-rights{
+        font-size: 2vh;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
 }
