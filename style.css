@@ -109,9 +109,50 @@ input{
     width: 400px;
 }
 
+/* Smart Phone Section */
+
+#mob-heading{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.mobiles{
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14% ;
+    justify-content: space-around;
+}
+
+.mobiles div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #fafafa;
+    border: 1px solid gainsboro;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.mobiles div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+.mobiles span p{
+    padding: 3px;
+    font-size: small;
+}
+
+.mobiles span p:first-child{
+    font-weight: bold;
+}
 /* Small Scree */
 
-@media(max-width: 100px) {
+@media(max-width: 1000px) {
 
     /* Navigation Bar */
 
@@ -142,6 +183,16 @@ input{
 
     .cart img{
         padding-left: 7px;
+    }
+
+    /* Home */
+
+    .background-image h2{
+        font-size: 23px;
+    }
+
+    .background-image img{
+        width: 50%;
     }
 
 }
@@ -198,6 +249,18 @@ input{
     .categories li{
         padding: 2px 0;
         font-size: 1vh;
+    }
+
+    .background-image{
+        background-size: cover;
+    }
+
+    .background-image h2{
+        font-size: 12px;
+    }
+
+    .background-image img{
+        width: 40%;
     }
 
 }
